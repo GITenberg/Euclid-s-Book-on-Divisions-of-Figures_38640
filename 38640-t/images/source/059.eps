@@ -1,0 +1,34 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%BoundingBox:   53   89  409  296
+409 % third BoundingBox parameter
+ 53 % first BoundingBox parameter
+sub 4 div
+90 % width in mm specified in \includegraphics
+div /myscale exch def
+
+myscale setlinewidth newpath
+   72  248 moveto   % a
+  386  281 lineto   % d
+  400  108 lineto   % c
+   72  108 lineto   % b
+closepath stroke
+  109  108 moveto   % t
+  131  255 lineto   % e
+  361  108 lineto   % z
+  386  281 lineto   % d
+
+  131  255 moveto   % e
+  400  108 lineto   % c
+
+  109  108 moveto   % t
+  386  281 lineto   % d
+stroke
+
+/Helvetica findfont 16 myscale mul scalefont setfont
+   63  253 moveto (a) show
+   63   99 moveto (b) show
+  395   96 moveto (c) show
+  390  277 moveto (d) show
+  126  258 moveto (e) show
+  102   94 moveto (t) show
+  353   96 moveto (z) show
