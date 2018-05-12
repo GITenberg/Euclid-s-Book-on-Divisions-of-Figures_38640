@@ -1,0 +1,51 @@
+_repo: Euclid-s-Book-on-Divisions-of-Figures_38640
+_version: 0.1.0
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  authors:
+  - agent_name: Woepcke, Franz
+    aliases:
+    - Wöpcke, Franz
+    - Wopcke, Franz
+    - Woepcke, F. (Franz)
+    birthdate: 1826
+    deathdate: 1864
+    gutenberg_agent_id: '42306'
+    url: http://www.gutenberg.org/2009/agents/42306
+  - agent_name: Euclid
+    alias: Euclid, of Alexandria
+    gutenberg_agent_id: '9719'
+    url: http://www.gutenberg.org/2009/agents/9719
+    wikipedia: http://en.wikipedia.org/wiki/Euclid
+  - agent_name: Archibald, Raymond Clare
+    alias: Archibald, R. C. (Raymond Clare)
+    birthdate: 1875
+    deathdate: 1955
+    gutenberg_agent_id: '39588'
+    url: http://www.gutenberg.org/2009/agents/39588
+  - agent_name: Fibonacci, Leonardo
+    aliases:
+    - Leonardo, of Pisa
+    - Pisano, Leonardo
+    - Leonardo, Pisano
+    - Bigollo, Leonardo
+    gutenberg_agent_id: '43081'
+    url: http://www.gutenberg.org/2009/agents/43081
+description: ''
+gutenberg_bookshelf: Mathematics
+gutenberg_issued: '2012-01-21'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '38640'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcc 'QA'
+- !lcsh 'Geometry, Plane'
+title: "Euclid's Book on Divisions of Figures\r\nWith a Restoration Based on Woepcke's\
+  \ Text and on the Practica Geometriae of Leonardo Pisano"
+url: http://www.gutenberg.org/ebooks/38640
