@@ -1,102 +1,167 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:cc="http://web.resource.org/cc/"
   xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
-  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
 >
   <pgterms:ebook rdf:about="ebooks/38640">
-    <dcterms:title>Euclid's Book on Divisions of Figures</dcterms:title>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/38640/38640-t/38640-t.tex">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">376511</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/38640"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Na10dbb93a645460ab904be5e076eb8c1">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.tex</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-01-21T14:38:24</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/42306">
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1864</pgterms:deathdate>
+        <pgterms:alias>Wopcke, Franz</pgterms:alias>
+        <pgterms:alias>Wöpcke, Franz</pgterms:alias>
+        <pgterms:alias>Woepcke, F. (Franz)</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1826</pgterms:birthdate>
+        <pgterms:name>Woepcke, Franz</pgterms:name>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:license rdf:resource="license"/>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/38640/38640-pdf.zip">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-01-21T14:38:24</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">773482</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N31af1e19009f48d496078f893ac2ff3b">
+          <rdf:Description rdf:nodeID="N8814339a57834ac9b5d482bd68ce5ec4">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N79346c4ea4ea45c3ba5afc5340a14aa4">
+          <rdf:Description rdf:nodeID="N7a3be39b252c4e2e96d7549f4d5a990c">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-01-21T14:38:24</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">773482</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/38640"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:title>Euclid's Book on Divisions of Figures&#13;
+With a Restoration Based on Woepcke's Text and on the Practica Geometriae of Leonardo Pisano</dcterms:title>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="Na742da45f41e41e6a7bf3195c2f79a0b">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>Mathematics</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/43081">
+        <pgterms:alias>Leonardo, of Pisa</pgterms:alias>
+        <pgterms:alias>Bigollo, Leonardo</pgterms:alias>
+        <pgterms:alias>Leonardo, Pisano</pgterms:alias>
+        <pgterms:alias>Pisano, Leonardo</pgterms:alias>
+        <pgterms:name>Fibonacci, Leonardo</pgterms:name>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Na459e7205eea4f5d806e23663d1a04dc">
+        <rdf:value>QA</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/38640.rdf">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8894</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-19T02:46:39.205766</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N38983dab34164500a77dd0b65e97aa36">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:isFormatOf rdf:resource="ebooks/38640"/>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-21</dcterms:issued>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</pgterms:downloads>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="Na2aff5380b3a47cbaa07124fe6815187">
-        <rdf:value>Text</rdf:value>
+      <rdf:Description rdf:nodeID="N2978f9fe1f8048cd9a17348e6dcc4eed">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
       </rdf:Description>
     </dcterms:type>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76</pgterms:downloads>
-    <dcterms:license rdf:resource="license"/>
     <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/39588">
-        <pgterms:name>Archibald, Raymond Clare</pgterms:name>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1875</pgterms:birthdate>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1955</pgterms:deathdate>
+      <pgterms:agent rdf:about="2009/agents/9719">
+        <pgterms:alias>Euclid, of Alexandria</pgterms:alias>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Euclid"/>
+        <pgterms:name>Euclid</pgterms:name>
       </pgterms:agent>
     </dcterms:creator>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/38640/38640-t.zip">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/38640/38640-pdf.pdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-01-21T14:38:24</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1024699</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/38640"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N79171ec636054f29864c7cb4a59b1a9d">
+          <rdf:Description rdf:nodeID="N3cfb4ca89b3d4a56a0a46b3dd258a407">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/38640/38640-t.zip">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250237</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N366b3c39619c43e198568c7e0d88d36a">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.tex</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250237</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-01-21T14:38:24</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N351edd0fd7a84122a92043fd00a6edb9">
+          <rdf:Description rdf:nodeID="N50e161bc2a1f427898a5dcb613236fc2">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
         <dcterms:isFormatOf rdf:resource="ebooks/38640"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-01-21T14:38:24</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/39588">
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1875</pgterms:birthdate>
+        <pgterms:alias>Archibald, R. C. (Raymond Clare)</pgterms:alias>
+        <pgterms:name>Archibald, Raymond Clare</pgterms:name>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1955</pgterms:deathdate>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N7db02bd62304406391012630a8bb7505">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/38640/38640-pdf.pdf">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/38640/38640-t/38640-t.tex">
         <dcterms:isFormatOf rdf:resource="ebooks/38640"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">376511</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-01-21T14:38:24</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1024699</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N9725dff4356144b59b8bb22b935aea6a">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          <rdf:Description rdf:nodeID="Necc88e63c77944478d192b93701496ef">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.tex</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="Ncb14311572ff4f218940f9e3c47dcf58">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nd41807a8e248440fbe45b0df976eeb61">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Geometry, Plane</rdf:value>
       </rdf:Description>
-    </dcterms:language>
+    </dcterms:subject>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-21</dcterms:issued>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
   </cc:Work>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Euclid">
+    <dcterms:description>en.wikipedia</dcterms:description>
+  </rdf:Description>
 </rdf:RDF>
